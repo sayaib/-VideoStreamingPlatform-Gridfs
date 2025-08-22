@@ -1,0 +1,21 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.video-container {
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+  padding: 5%;
+}
+
+img {
+  cursor: pointer;
+  top: 0;
+  border-radius: 10px;
+  left: 0;
+  width: 100%;
+}
